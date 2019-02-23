@@ -111,4 +111,13 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+# Aliases
 alias gst="git status"
+alias gcm="git commit -m"
+alias gp="git push"
+alias gl="git pull"
+alias glog="git log --oneline --decorate --graph"
+# from https://github.com/robbyrussell/oh-my-zsh/blob/master/plugins/git/git.plugin.zsh
+alias glol="git log --graph --pretty='%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'"
+alias cb="xclip -sel clip <"

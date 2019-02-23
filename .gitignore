@@ -9,3 +9,4 @@ Desktop Documents Downloads LICENSE Music Pictures Public Templates Videos
 .xsession-errors*
 .config/chromium/*
 .local/*
+*.png
