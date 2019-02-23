@@ -33,6 +33,11 @@
 			<action name="Restart"/>
 		</item>
 		<separator/>
+		<item label="Shutdown">
+			<action name="Execute">
+				<execute>shutdown -h now</execute>
+			</action>
+		</item>
 		<item label="Exit">
 			<action name="Exit"/>
 		</item>
