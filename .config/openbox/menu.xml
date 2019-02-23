@@ -35,7 +35,7 @@
 		<separator/>
 		<item label="Shutdown">
 			<action name="Execute">
-				<execute>shutdown -h now</execute>
+				<execute>/sbin/shutdown -h now</execute>
 			</action>
 		</item>
 		<item label="Exit">
