@@ -1,0 +1,11 @@
+Desktop Documents Downloads LICENSE Music Pictures Public Templates Videos
+!.config*
+.ssh/*
+.bash_history
+.bash_logout
+.cache/*
+.Xauthority
+.pki/*
+.xsession-errors*
+.config/chromium/*
+.local/*
